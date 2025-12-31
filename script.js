@@ -65,7 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Videos list (place video files in /Video/ and thumbnails in /thumbs/)
   const videos = [
     { id: "commedy", title: "A CHAKWELA ASANALOWE M'BOMA", file: "Videos/video1.mp4", thumb: "thumbs/thumb2.jpeg" },    
-    { id: "commedy", title: "2063", file: "Videos/video2.mp4", thumb: "thumbs/thumb2.jpeg" }  
+    { id: "commedy", title: "2063", file: "Videos/video2.mp4", thumb: "thumbs/thumb2.jpeg" },
+    { id: "Lay B salima", title: "Balaf", file: "Videos/Lay_B_Salima_Balaf.mp4", thumb: "thumbs/layb1.jpg" } 
    ];
 
   // Helpers
