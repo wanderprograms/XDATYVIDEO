@@ -71,6 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const videos = [
     { id: "commedy", title: "A CHAKWELA ASANALOWE M'BOMA", file: "Videos/video1.mp4", thumb: "thumbs/thumb2.jpeg" },    
     { id: "commedy", title: "2063", file: "Videos/video2.mp4", thumb: "thumbs/thumb2.jpeg" },
+    { id: "x1", title: "Xvideos_deep_fucking", file: "Videos/Xvideos_deep_fucking.mp4", thumb: "thumbs/fb8_089.jpg" },    
+    { id: "x2", title: "Xvideos_teenGirl_fucked", file: "Videos/Xvideos_teenGirl_fucked.mp4", thumb: "thumbs/fb8_089.jpg" },
     { id: "Lay B salima", title: "Balaf", file: "Videos/Lay_B_Salima_Balaf.mp4", thumb: "thumbs/layb1.jpg" } 
    ];
 
