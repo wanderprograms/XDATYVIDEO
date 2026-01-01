@@ -18,6 +18,11 @@
   <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-database-compat.js"></script>
 </head>
 <body>
+  <!-- Splash screen -->
+    <div id="splash">    
+      <img src="thumbs/fb8_089.jpg" alt="Logo" id="splash-logo">    
+   </div>
+  
   <!-- Top navigation (visible only when logged in) -->
   <nav id="appNav" class="hidden">
     <div class="nav-bar">
@@ -36,7 +41,7 @@
       </div>
       <div class="row">
         <label for="loginPassword">Mawu achinsinsi</label>
-        <input type="password" id="loginPassword" required minlength="6" placeholder="••••••••">
+        <input type="password" id="loginPassword" required minlength="8" placeholder="••••••••">
       </div>
       <div class="actions">
         <button type="submit" class="btn">Lowani</button>
@@ -49,7 +54,7 @@
       <h2>Kulembetsa</h2>
       <div class="row">
         <label for="fullName">Dzina lonse</label>
-        <input type="text" id="fullName" required placeholder="Mwachitsanzo: Isaac Banda">
+        <input type="text" id="fullName" required placeholder="Mwachitsanzo: Isaac wonderford">
       </div>
       <div class="row">
         <label for="registerEmail">Imelo</label>
@@ -61,7 +66,7 @@
       </div>
       <div class="row">
         <label for="registerPassword">Mawu achinsinsi</label>
-        <input type="password" id="registerPassword" required minlength="6" placeholder="Osachepera 6">
+        <input type="password" id="registerPassword" required minlength="6" placeholder="Osachepera 8 mix">
       </div>
       <div class="row checkbox-row">
         <input type="checkbox" id="confirmSite">
@@ -80,12 +85,14 @@
     <div class="card">
       <h2>Malangizo pa app ino</h2>
       <ul class="tips">
-       <p>Takulandilani ku XDATYVIDEOS<br> pa application ino ndipa ma video olawura<br>ndiye ngati mwalowa pano muzikhala mukuziwa izi.<br></p>
+       <p>Takulandilani ku XDATYVIDEOS<br> pa application ino ndipa ma video olawura<br>ndiye ngati mwalowa pano ndiye kuti mwagwiriza ndizochitika za pano<br></p>
 
       <li><strong>Kachitidwe kake:</strong> Mukalowa ku Video muwona ma video pansi muka dina video izionekera pamwamba ikutsewera.</li>
 
-      <li><strong>Like:</strong> Dinani batani la Like, kuti tiziziwa anthu omwe akugwiritsa ntchito app ino, cholinga tizitha kumaponyapo ma Videos atsopano.</li
-      </ul>
+      <li><strong>Like:</strong> Dinani batani la Like, kuti tiziziwa anthu omwe akugwiritsa ntchito app ino, cholinga tizitha kumaponyapo ma Videos atsopano.</li>
+
+       <p>mutha kupanga download ma videos kuti muzionera pa phone yanu<br>komabe kumakumbukira kusunga mosamala kuti ana asawone izi ndiza akulu akulu<br>ndichifukwanso pa app ino timalowa ndi password kupangira chitetezo</p>                                                                                                                                                         
+                                                                                                                                                            
       <div class="home-actions">
         <button id="logoutBtn" class="btn danger">Tulukani</button>
       </div>
